@@ -1,0 +1,65 @@
+.project-list {
+	margin: 10px;
+	padding: 10px;
+	border-radius: 5px;
+	box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+	-webkit-box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+	-moz-box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+}
+
+.project-list-opened {
+	border-left: 5px solid blueviolet;
+}
+.project-list:hover {
+	border-left: 5px solid blueviolet;
+	cursor: pointer;
+	transition-duration: 0.471s;
+}
+.title-and-collapse-option {
+	display: flex;
+	justify-content: space-between;
+	margin: 5px;
+}
+
+.tech-used-in-project {
+	margin-top: 20px;
+	margin: 5px;
+}
+
+.tech-used-in-project p:hover {
+	background-color: rgb(59, 5, 14);
+	color: white;
+}
+
+.tech-used-in-project p {
+	background-color: tomato;
+	color: white;
+	border-radius: 90px;
+	padding: 8px;
+	text-align: center;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.live-demo-button {
+	background-color: brown;
+	border-radius: 90px;
+	color: white;
+	width: fit-content;
+	padding: 10px;
+	margin: 5px;
+}
+
+.live-demo-button:hover {
+	background-color: blueviolet;
+	transition-duration: 1s;
+}
+
+.live-demo-button a {
+	color: white;
+	text-decoration: none;
+	padding: 10;
+}
+.description {
+	margin: 5px;
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}

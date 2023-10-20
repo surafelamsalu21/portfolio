@@ -1,0 +1,61 @@
+.contact-section {
+	height: 600px;
+	box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+	-webkit-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+	-moz-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+}
+
+.contact-form-image img {
+	height: 600px;
+	width: 100%;
+	border-radius: 20px;
+	object-fit: cover;
+}
+
+.contact-form input {
+	height: 50px;
+	border-radius: 15px;
+	margin-top: 10px;
+	width: 100%;
+	margin-bottom: 15px;
+}
+.custom-select-tag {
+	height: 50px;
+	border-radius: 15px;
+	margin-top: 10px;
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+.contact-form textarea {
+	/* height: 50px; */
+	border-radius: 15px;
+	margin-top: 10px;
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+.button-submit p {
+	background-color: black;
+	color: white;
+	padding: 10px;
+	border-radius: 30px;
+	/* text-align: center; */
+	width: 50%;
+	margin-top: 40px;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.button-submit p:hover {
+	background-color: brown;
+	color: white;
+	transition-duration: 0.31s;
+}
+
+.send-button p {
+	margin-right: 1000px;
+}
